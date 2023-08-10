@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 46%;
+  margin: 0 5px 10px 5px;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: linear-gradient(#e0aa3e, #faf398, #e0aa3e);
+  color: #410200;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 0 15px 5px #faf398;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: -12px; */
+}
+
+.card-name {
+  font-size: 15px;
+  font-weight: 700;
+  width: 70%;
+  margin: 0;
+}
+
+.card-date {
+  font-size: 15px;
+  font-weight: 600;
+  color: #410200;
+}
+
+.card-content {
+  width: 20%;
+  font-size: 15px;
+  text-align: right;
+}
+
+.checked {
+  color: #8f00ff;
+}
+
+.ratingGp {
+  display: flex;
+}

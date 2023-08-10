@@ -1,0 +1,54 @@
+body {
+  max-width: 1000px;
+  background-color: black;
+  color: #f9f295;
+  font-family: "Barlow Condensed";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rowdies";
+}
+
+.menu {
+  width: 100%;
+  margin: 10px 0;
+  border-top: 5px solid #895c0f;
+  border-bottom: 5px solid #895c0f;
+  background-image: linear-gradient(#e0aa3e, #faf398, #e0aa3e);
+  font-weight: 700;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .menu ul {
+    flex-direction: column;
+  }
+}
+
+.menu li {
+  margin-bottom: 0;
+}
+
+.menu li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

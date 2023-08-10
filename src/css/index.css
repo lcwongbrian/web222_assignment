@@ -1,0 +1,54 @@
+.right {
+  float: right;
+}
+
+.sectionRow {
+  position: relative;
+  height: 350px;
+  border-bottom: 2px solid;
+  padding: 0 20px;
+}
+
+.rowText {
+  position: relative;
+  top: 100px;
+}
+
+.form {
+  max-width: 400px;
+  margin: 5px auto 5px auto;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: linear-gradient(#e0aa3e, #faf398, #e0aa3e);
+  color: #410200;
+}
+
+.form label {
+  float: left;
+  margin-right: 10px;
+}
+
+.imgBg1 {
+  background-image: url("https://resources.canadiangamingbusiness.com/resources/2023/07/Untitled-design-5.png");
+  background-size: cover;
+}
+.imgBg2 {
+  background-image: url("https://www.telegraph.co.uk/content/dam/betting/Better-Collective/8-Classic.jpg?imwidth=960");
+  background-size: cover;
+}
+.imgBg3 {
+  background-image: url("https://c1.peakpx.com/wallpaper/948/699/787/poker-bridge-ace-playing-cards-game-wallpaper-preview.jpg");
+  background-size: cover;
+}
+.imgBg4 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/26/Poker_closeup.jpg");
+  background-size: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Lap Chi Wong" />
+    <title>Reviews</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow Condensed" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rowdies" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/sakura.css" type="text/css" />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="./css/reviews.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Reviews</h1>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./info.html">About Texas Hold'em</a></li>
+        <li><a href="./reviews.html">Reviews</a></li>
+        <li><a href="./about.html">About Me</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container"></div>
+      <hr />
+      <form id="formReview">
+        <h3>Give me your opinion!</h3>
+        <label for="name">Your name*</label>
+        <input type="text" id="name" name="name" required />
+        <label for="rate">Rating*</label>
+        <div class="ratingGp">
+          <input id="rate5" type="radio" name="rate" value="5" checked required />
+          <label for="rate5">5</label>
+          <input id="rate4" type="radio" name="rate" value="4" />
+          <label for="rate4">4</label>
+          <input id="rate3" type="radio" name="rate" value="3" />
+          <label for="rate3">3</label>
+          <input id="rate2" type="radio" name="rate" value="2" />
+          <label for="rate2">2</label>
+          <input id="rate1" type="radio" name="rate" value="1" />
+          <label for="rate1">1</label>
+        </div>
+        <label for="content">Comment*</label>
+        <textarea id="content" name="content" rows="10" cols="50" required></textarea>
+        <input class="bbtnSubmit" type="submit" value="Submit" />
+        <!-- <button id="btnSubmit" onclick="onClickBtnSubmit()">Submit</button> -->
+      </form>
+    </main>
+
+    <!-- JavaScript Data Files -->
+    <script src="./js/data.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/reviews.js"></script>
+  </body>
+</html>
